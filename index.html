@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>n.one store</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: #f4f4f4;
+      margin: 0;
+      text-align: center;
+    }
+    h1 {
+      background: black;
+      color: white;
+      padding: 20px;
+      margin: 0;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    button {
+      margin-top: 10px;
+      padding: 10px;
+      background: black;
+      color: white;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<h1>n.one store 🖼️</h1>
+
+<div class="products">
+  <div class="card">
+    <img src="https://via.placeholder.com/400x400">
+    <h3>لوحة تجريبية</h3>
+    <p>30$</p>
+    <button onclick="window.open('https://wa.me/رقمك')">
+      اطلب الآن
+    </button>
+  </div>
+</div>
+
+</body>
+</html>
