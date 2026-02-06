@@ -5,27 +5,33 @@
   <title>n.one store</title>
   <style>
     body {
-      font-family: Arial;
-      background: #f4f4f4;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
       margin: 0;
       text-align: center;
     }
     h1 {
-      background: black;
-      color: white;
+      background: #222;
+      color: gold;
       padding: 20px;
       margin: 0;
+      font-size: 2em;
     }
     .products {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
       gap: 20px;
       padding: 20px;
     }
     .card {
-      background: white;
+      background: #222;
       padding: 15px;
-      border-radius: 10px;
+      border-radius: 15px;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
     }
     .card img {
       width: 100%;
@@ -34,11 +40,20 @@
     button {
       margin-top: 10px;
       padding: 10px;
-      background: black;
-      color: white;
+      background: gold;
+      color: black;
       border: none;
       cursor: pointer;
       width: 100%;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    a {
+      color: gold;
+      text-decoration: none;
+    }
+    footer {
+      margin: 20px 0;
     }
   </style>
 </head>
@@ -48,14 +63,65 @@
 
 <div class="products">
   <div class="card">
-    <img src="https://via.placeholder.com/400x400">
-    <h3>لوحة تجريبية</h3>
+    <img src="https://via.placeholder.com/400x400?text=لوحة+1" alt="لوحة 1">
+    <h3>لوحة مودرن 1</h3>
     <p>30$</p>
-    <button onclick="window.open('https://wa.me/رقمك')">
-      اطلب الآن
-    </button>
+    <button onclick="window.open('https://wa.me/0988947229')">اطلب الآن</button>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/400x400?text=لوحة+2" alt="لوحة 2">
+    <h3>لوحة مودرن 2</h3>
+    <p>45$</p>
+    <button onclick="window.open('https://wa.me/0988947229')">اطلب الآن</button>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/400x400?text=لوحة+3" alt="لوحة 3">
+    <h3>لوحة مودرن 3</h3>
+    <p>50$</p>
+    <button onclick="window.open('https://wa.me/0988947229')">اطلب الآن</button>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/400x400?text=لوحة+4" alt="لوحة 4">
+    <h3>لوحة مودرن 4</h3>
+    <p>40$</p>
+    <button onclick="window.open('https://wa.me/0988947229')">اطلب الآن</button>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/400x400?text=لوحة+5" alt="لوحة 5">
+    <h3>لوحة مودرن 5</h3>
+    <p>55$</p>
+    <button onclick="window.open('https://wa.me/0988947229')">اطلب الآن</button>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/400x400?text=لوحة+6" alt="لوحة 6">
+    <h3>لوحة مودرن 6</h3>
+    <p>60$</p>
+    <button onclick="window.open('https://wa.me/0988947229')">اطلب الآن</button>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/400x400?text=لوحة+7" alt="لوحة 7">
+    <h3>لوحة مودرن 7</h3>
+    <p>35$</p>
+    <button onclick="window.open('https://wa.me/0988947229')">اطلب الآن</button>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/400x400?text=لوحة+8" alt="لوحة 8">
+    <h3>لوحة مودرن 8</h3>
+    <p>65$</p>
+    <button onclick="window.open('https://wa.me/0988947229')">اطلب الآن</button>
   </div>
 </div>
+
+<footer>
+  تابعنا على <a href="https://www.instagram.com/alfakih.talal?igsh=dW5mMTRsYXZiYmli" target="_blank">إنستغرام</a>
+</footer>
 
 </body>
 </html>
